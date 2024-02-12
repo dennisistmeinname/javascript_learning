@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Light Blue Background Website</title>
+    <style>
+        body {
+            background-color: #e0f2f1; /* Light blue background color */
+            margin: 0; /* Remove default margin */
+            padding: 0; /* Remove default padding */
+            font-family: Arial, sans-serif; /* Set default font */
+        }
+
+        .container {
+            max-width: 800px; /* Set maximum width for content */
+            margin: auto; /* Center content horizontally */
+            padding: 20px; /* Add padding around content */
+        }
+
+        h1 {
+            color: #333; /* Set heading color */
+        }
+
+        p {
+            color: #666; /* Set paragraph text color */
+        }
+
+        /* Navigation styles */
+        nav {
+            background-color: #fff; /* White background color */
+            padding: 10px 0; /* Add padding to top and bottom */
+            text-align: center; /* Center-align the links */
+
+        }
+
+        nav a {
+            text-decoration: none; /* Remove underline from links */
+            color: #333; /* Set link color */
+            padding: 10px 20px; /* Add padding to left and right */
+            border-radius: 5px; /* Add border radius for rounded corners */
+            margin: 0 10px; /* Add margin between links */
+            transition: background-color 0.3s; /* Add transition for smoother hover effect */
+        }
+
+        nav a:hover {
+            background-color: #ddd; /* Darker background color on hover */
+        }
+
+        /* Media query for smaller screens */
+        @media (max-width: 768px) {
+            .container {
+                max-width: 90%; /* Adjust maximum width for smaller screens */
+            }
+        }
+    </style>
+</head>
+<body>
+
+<nav>
+    <a href="#home" onclick="alert('Opravdu si přejete odejít?')" >Home</a>
+    <a href="#about">About</a>
+    <a href="#contact">Contact</a>
+</nav>
+
+<div class="container">
+    <h1>Welcome to My Website</h1>
+    <p>This is a basic website with a light blue background.</p>
+</div>
+
+</br> 
+
+<script src="myScript.js"></script>
+
+</body>
+</html>
+
