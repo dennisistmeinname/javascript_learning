@@ -1,4 +1,3 @@
-    var x;
-    var text;
-    text = "Proměnná x se rovná = "+x;
+
+    text = "Proměnná x se rovná = ";
     document.write(text);

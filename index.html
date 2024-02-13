@@ -18,9 +18,18 @@
             padding: 20px; /* Add padding around content */
         }
 
-        .input {
-            max-width: 450px; /* Set maximum width for content */
+        .input_window{
+            max-width: 200px; /* Set maximum width for content */
+            background-color: #fff;
+            padding: 10px;
+            margin: 10px 0px;
         }
+
+        .input_window h2{
+            margin: auto;
+        }
+
+
 
         h1 {
             color: #333; /* Set heading color */
@@ -68,15 +77,19 @@
 </nav>
 
 <div class="container">
-    <h1>Welcome to My Website</h1>
-    <p>This is a basic website with a light blue background.</p>
+    <h1>Welcome to my first JavaScript website</h1>
+    <p>This will be a basic web calculator </p>
     <br>
-    <div class="input">
-        <div onmouseover="prompt('Put the value of x in:')">
-            <p>Hover with your mouse over this text to put in the value of "x" </p>
-        </div>
+    <div class="input_window">
+        <h2>Value of X:</h2>
+        <input type="text" value="Input the value of X:" onfocus="if(this.value=='Input the value of X:') this.value=''">
     </div>
-    <input type="text" value="Input the value of x:" onfocus="if(this.value=='Input the value of x:') this.value=''">
+
+    <div class="input_window">
+        <h2>Value of Y:</h2>
+        <input type="text" value="Input the value of Y:" onfocus="if(this.value=='Input the value of Y:') this.value=''">
+    </div>
+
 
 
 </div>
