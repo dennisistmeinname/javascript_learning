@@ -1,2 +1,2 @@
 # javascript_learning
-__Just for learning Javascript__
+**Just for learning Javascript**
